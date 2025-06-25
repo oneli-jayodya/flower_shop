@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1 ">
+        <title>Flower Shop Website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    </head>
+    <body>
+
+        <header>
+            <a href="index.html"><img src="logo.png"></a>
+            <ul class="navbar">
+                <a href="index.html">Home</a>
+                <a href="flower.html">Flowers</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </ul>
+        </header>
+
+        <section class="flower">
+
+        </section>
+
+        <div style="background-color: cadetblue; text-align: center;">
+            <br>
+            <h6><b>Hot Line:</b> +94 756174242 +94 777608346 </h6>
+            <h6 style="float: right;">
+                <h6><b>Address:</b> 56c/1, Elliot road, Galle, Sri Lanka </h6>
+                <br>
+        </div>
+        <br><br>
+        <h3 style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(40, 40, 105);"><b>Contact Form</b></h3>
+        
+        <div class="container">
+            <form>
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+                <label for="lname">Email</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your Email..">
+        
+                <label for="fname">Phone Number</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your Number">
+        
+        
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                <option value="australia">Sri Lanka</option>
+                <option value="canada">Chaina</option>
+                <option value="usa">USA</option>
+                </select>
+        
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+                <input type="submit" value="Submit" onclick="sub()">
+            </form>
+        </div>
+
+        <br><br>
+
+        <footer>
+            <div class="footre-content">
+                <h3 class="foottop">Chamu Folwers</h3>
+                <p class="footdes">Give a Lovelyble Moments for your family, lover, friends.... Refresh Your Day With Flowers !!</p>
+                <ul class="socials">
+                    <li><a href="#" class="footlink"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#" class="footlink"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#" class="footlink"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#" class="footlink"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copywrite &copy;2023 chamu Flowers. designed by <span>Chamudi</span></p>
+            </div>
+        </footer>
+
+        <script>
+            function sub(){
+                alert('submited');
+            }
+        </script>
+
+    </body>
+</html>
